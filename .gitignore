@@ -1,0 +1,13 @@
+# Node.js and npm
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Backend dependencies (if you're using npm for both frontend and backend)
+/server/node_modules
+
+# Frontend build files
+/child1/build
+
+# Environment variables
+/child2/.env
