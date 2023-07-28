@@ -3,7 +3,7 @@
 npm-debug.log
 yarn-error.log
 
-# Backend dependencies (if you're using npm for both frontend and backend)
+# Backend dependencies 
 /server/node_modules
 
 # Frontend build files
