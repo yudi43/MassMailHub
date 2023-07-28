@@ -11,3 +11,5 @@ yarn-error.log
 
 # Environment variables
 /child2/.env
+
+.DS_Store
