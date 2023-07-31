@@ -7,6 +7,7 @@ require("./models/User");
 require("./services/passport");
 
 mongoose.connect(keys.mongoURI);
+
 const app = express();
 
 app.use(
@@ -28,6 +29,7 @@ app.use((req, res, next) => {
 });
 
 const PORT = process.env.PORT || 3000;
+
 app.listen(PORT, () => {
   console.log(`-> Server is listening on port ${PORT}`);
 });
