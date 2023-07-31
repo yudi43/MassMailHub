@@ -5,6 +5,8 @@ yarn-error.log
 
 # Backend dependencies 
 /server/node_modules
+/server/client/node_modules
+/server/config/dev.js
 
 # Frontend build files
 /child1/build
